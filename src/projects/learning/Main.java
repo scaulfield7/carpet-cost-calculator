@@ -10,7 +10,7 @@ public class Main {
         Carpet carpet2= new Carpet(24);
         CostCalculator costCalculator2 = new CostCalculator(floor2, carpet2);
 
-        System.out.println("Cost of floor 1: " + costCalculator1.getTotalCost());
-        System.out.println("Cost of floor 2: " + costCalculator2.getTotalCost());
+        System.out.println("Cost of floor 1: €" + costCalculator1.getTotalCost());
+        System.out.println("Cost of floor 2: €" + costCalculator2.getTotalCost());
     }
 }
